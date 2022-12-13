@@ -11,13 +11,13 @@ import { useState } from "react";
 const SignUp = () => {
   const cookies = new Cookies();
   const [email, setEmail] = useState("");
-  email();
+  // email();
   const [password, setPassword] = useState("");
   const [openP, setOpenP] = useState("false");
   const toggleP = () => {
     setOpenP(!openP);
   };
-  password();
+  // password();
 
   const [confirm, setConfirm] = useState("");
   const [openC, setOpenC] = useState("false");
@@ -25,7 +25,7 @@ const SignUp = () => {
   const toggleC = () => {
     setOpenC(!openC);
   };
-  confirm();
+  // confirm();
   const navigate = useNavigate();
   const data = {
     email: 'email',

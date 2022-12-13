@@ -22,8 +22,8 @@ function App() {
    
       <Routes>
 
-        <Route path="/SignUp" element={<SignUp />} />
-        <Route index element={<SignIn />} />
+        <Route exact path="/" element={<SignUp />} />
+        <Route path="/SignIn" element={<SignIn />} />
         <Route path="/ForgetE" element={<ForgetE />} />
         <Route path="/ForgetC" element={<ForgetC />} />
         <Route path="/NewPass" element={<NewPass />} />

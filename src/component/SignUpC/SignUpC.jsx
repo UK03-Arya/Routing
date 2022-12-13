@@ -11,7 +11,7 @@ const SignUpC = () => {
     // const cookies = new Cookies();
 
     const [otp, setOtp] = useState("");
-    otp();
+    // otp();
 
     
     const navigate = useNavigate();

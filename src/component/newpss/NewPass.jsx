@@ -19,7 +19,7 @@ const NewPass = () => {
     setOpenP(!openP)
 
   }
-  NewPass();
+  // NewPass();
 
   const [confirm, setConfirm] = useState("");
   const [openC, setOpenC] =useState("false")
@@ -30,7 +30,7 @@ const NewPass = () => {
     setOpenC(!openC)
 
   }
-  confirm();
+  // confirm();
  
   
   const navigate=useNavigate();
