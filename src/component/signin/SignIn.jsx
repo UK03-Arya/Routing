@@ -11,7 +11,7 @@ import { FaEnvelope,FaEye, FaEyeSlash} from 'react-icons/fa';
 import { useState } from "react";
 const SignIn = () => {
   const [email, setEmail] = useState("");
-  email();
+  // email();
   const [password, setPassword] = useState("");
   const [openP, setOpenP] =useState("false")
   const toggleP=()=>
@@ -19,7 +19,7 @@ const SignIn = () => {
     setOpenP(!openP)
   
   }
-  password();
+  // password();
   const data={
     email: "email",
     password: "password",

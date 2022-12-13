@@ -11,7 +11,7 @@ import Cookies from "universal-cookie";
 
 const ForgetE = () => {
   const [email, setEmail] = useState("");
-  email();
+  // email();
   const navigate=useNavigate();
   const handleApi = async (e) => {
     const token=Cookies.get("SignIn");

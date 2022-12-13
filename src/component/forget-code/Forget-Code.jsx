@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const ForgetC = () => {
   const [ForgetOtp, setForgetOtp] = useState("");
-  ForgetOtp();
+  // ForgetOtp();
   const navigate=useNavigate();
   const handleApi = async (e) => {
     const token=Cookies.get("ForgetE");
